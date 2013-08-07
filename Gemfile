@@ -16,6 +16,10 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test do
+  gem 'factory_girl_rails', '4.2.1'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass'
